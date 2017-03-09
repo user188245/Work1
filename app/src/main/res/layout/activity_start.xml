@@ -4,44 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.user.work1.MainActivity">
+    tools:context="com.example.user.work1.StartActivity">
 
     <LinearLayout
         android:layout_width="368dp"
         android:layout_height="495dp"
         android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="21dp"
-            android:text="사과의 개수는?" />
-
-        <EditText
-            android:id="@+id/e1"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:hint="숫자로 입력"
-            android:inputType="numberDecimal" />
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="21dp"
-            android:text="사과의 가격은?" />
-
-        <EditText
-            android:id="@+id/e2"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:hint="숫자로 입력" />
-
         <Button
-            android:id="@+id/b1"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:text="총 액수는?" />
-
+            android:id="@+id/b1"
+            android:text="실습1"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/b2"
+            android:text="실습2"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/b3"
+            android:text="실습3"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/b4"
+            android:text="실습4"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/b5"
+            android:text="실습5"/>
     </LinearLayout>
-
 </android.support.constraint.ConstraintLayout>
