@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void init(){
+        setTitle("사과 가격 계산");
         b1 = (Button)findViewById(R.id.b1);
         b1.setOnClickListener(new ButtonListener1());
         e1 = (EditText)findViewById(R.id.e1);

@@ -19,6 +19,7 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     private void init(){
+        setTitle("나이계산기");
         b1 = (Button)findViewById(R.id.b1);
         b2 = (Button)findViewById(R.id.b2);
         e1 = (EditText)findViewById(R.id.e1);

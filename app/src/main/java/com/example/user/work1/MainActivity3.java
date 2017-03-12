@@ -19,12 +19,13 @@ public class MainActivity3 extends AppCompatActivity {
     }
 
     private void init(){
+        setTitle("온도계산기");
         b1 = (Button)findViewById(R.id.b1);
-            b2 = (Button)findViewById(R.id.b2);
-            e1 = (EditText)findViewById(R.id.e1);
-            e2 = (EditText)findViewById(R.id.e2);
-            b1.setOnClickListener(new MainActivity3.ButtonListener1());
-            b2.setOnClickListener(new MainActivity3.ButtonListener2());
+        b2 = (Button)findViewById(R.id.b2);
+        e1 = (EditText)findViewById(R.id.e1);
+        e2 = (EditText)findViewById(R.id.e2);
+        b1.setOnClickListener(new MainActivity3.ButtonListener1());
+        b2.setOnClickListener(new MainActivity3.ButtonListener2());
         }
 
         private class ButtonListener1 implements View.OnClickListener{
