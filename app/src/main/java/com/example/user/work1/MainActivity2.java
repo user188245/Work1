@@ -32,14 +32,14 @@ public class MainActivity2 extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             int age = 2017 - Integer.parseInt(e1.getText().toString()) + 1;
-            Toast.makeText(getApplicationContext(),"당신의 나이는 " + age + " 세 입니다.", Toast.LENGTH_SHORT);
+            Toast.makeText(getApplicationContext(),"당신의 나이는 " + age + " 세 입니다.", Toast.LENGTH_SHORT).show();
         }
     }
     private class ButtonListener2 implements View.OnClickListener{
         @Override
         public void onClick(View v) {
             int year = 2017 - Integer.parseInt(e2.getText().toString()) + 1;
-            Toast.makeText(getApplicationContext(),"당신이 태어난 연도는 " + year + "년 입니다.", Toast.LENGTH_SHORT);
+            Toast.makeText(getApplicationContext(),"당신이 태어난 연도는 " + year + "년 입니다.", Toast.LENGTH_SHORT).show();
         }
     }
 }

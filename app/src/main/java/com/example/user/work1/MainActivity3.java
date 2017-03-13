@@ -32,14 +32,14 @@ public class MainActivity3 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 double temp = Double.parseDouble(e1.getText().toString())*1.8 + 32;
-                Toast.makeText(getApplicationContext(),"화씨 온도는 " + temp + "도 입니다.", Toast.LENGTH_SHORT);
+                Toast.makeText(getApplicationContext(),"화씨 온도는 " + temp + "도 입니다.", Toast.LENGTH_SHORT).show();
             }
         }
         private class ButtonListener2 implements View.OnClickListener{
             @Override
             public void onClick(View v) {
             double temp = (Double.parseDouble(e2.getText().toString()) - 32)/1.8;
-            Toast.makeText(getApplicationContext(),"섭씨 온도는 " + temp + "도 입니다.", Toast.LENGTH_SHORT);
+            Toast.makeText(getApplicationContext(),"섭씨 온도는 " + temp + "도 입니다.", Toast.LENGTH_SHORT).show();
         }
     }
 }
