@@ -63,8 +63,4 @@ public class MainActivity5 extends AppCompatActivity {
         }
     }
 
-    private int getNum(String s){
-        return Integer.parseInt(s);
-    }
-
 }
